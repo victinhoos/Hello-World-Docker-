@@ -57,19 +57,20 @@ Este repositório serve como base de aprendizado para:
 ### 1️⃣ Clone o repositório  
 ```bash
 git clone https://github.com/victinhoos/Hello-World-Docker.git
-
+```
 ### 2️⃣ Entre na pasta do projeto
 ```bash
 cd Hello-World-Docker
-
+```
 ###  3️⃣ Construa a imagem
 ```bash
 docker build -t hello-world-docker .
-
+```
 ### 4️⃣ Execute o container
 ```bash
 docker run -d -p 8080:80 hello-world-docker
-
-###5️⃣ Acesse no navegador
+```
+### 5️⃣ Acesse no navegador
 ```bash
 👉 http://localhost:8080
+```
